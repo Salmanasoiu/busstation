@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Sign up</title>
+    </head>
+    <link rel="stylesheet" href="new.css">
+    <body>
+       
+        <center><h1> Bus Station </h1></center> 
+    
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li style="float:right"> <a class="active" href="login.html">Login</a></li>
+             </ul>
+        </nav>
+
+    <div class="loginbox">
+        <form>
+            <h3> Create New Account  </h3><br><br>
+            <label for="name">Full Name</label>
+            <input type="text" placeholder="Karan Rana"required> <br><br>
+            <label for="E-mail">E-Mail</label>
+            <input type="email"placeholder="xyz@domain.com"required><br><br>
+            <label for="password">Create Password</label>
+            <input type="password" placeholder="Minimum 6 Letters"required><br><br>
+            <label for="Mobile number">Mobile No.</label>
+            <input type="tel"placeholder="1234567890"required><br><br>
+            <input type="submit" name"" value="Sign In"><br>
+            <center><a href="login.html">Already have an Account?</a></center>
+               
+        </form>
+        <script>
+            function myFun() {
+                var name=document.myform.id.value;
+                var pass=document.myform.pass.value;
+
+                if (name=="navdeep@gmail.com" && pass=="123") {
+                    window.alert("Login Successfull");
+                    //Go to dashboard
+                } else {
+                    window.alert("Wrong Credential");
+                }
+            }
+        </script>
+    </div>
+    </body>
+</html>

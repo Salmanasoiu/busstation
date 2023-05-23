@@ -1,0 +1,62 @@
+form{ 
+    text-align: center;
+}
+label{
+    text-decoration: solid;
+}
+input{
+    text-decoration-color: black;
+    text-decoration: solid;
+    
+          border: none;
+        border-bottom: 1px solid#fff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: #fff;
+        font-size: 16px;
+    
+    }
+    .bus{
+        margin-left: 780px;
+        margin-top: 40px;
+        width: 400px;
+        height: 320px;
+        background-color: rgba(0,0,0, 0.8);
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        box-decoration-break: slice;
+        box-sizing: border-box;
+        border-color: black;
+        font-weight: 700;
+        padding: 30px 30px;
+        padding-top: 20px;
+    }
+.bus input[type="submit"]{
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 50px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.bus input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+label{
+    display: inline-block;
+    width: 50px;
+ color: antiquewhite;
+}
+
+.buslist{
+    margin: 20px 150px;
+    color: #fff;
+    
+}

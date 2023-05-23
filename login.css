@@ -1,0 +1,252 @@
+
+/* .navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+
+}
+
+nav{
+    flex: 1;
+    text-align: left;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+   
+}
+nav ul li{
+    display:  inline-block;
+    margin-right: auto;} */
+    
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgba(0,0,0, 0.5);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #fb2525;
+  }
+
+.loginbox{
+    margin-left: 900px;
+    margin-top: 50px;
+    width: 320px;
+    height: 380px;
+    background-color: rgba(0,0,0, 0.8);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    box-decoration-break: slice;
+    box-sizing: border-box;
+    border-color: black;
+    font-weight: 700;
+    padding: 30px 30px;
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+h3{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox input{ 
+    width: 100%;
+    margin-bottom: 20px;
+}
+input
+{ 
+      border: none;
+    border-bottom: 1px solid#fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.loginbox a:hover
+{
+    color: #ffc107;
+}
+body{background-image: url(bus.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h1 {
+    text-shadow: 2px 2px 5px red;
+    font-size: 50px;
+  }
+ 
+table{
+    color: #fff;
+}
+
+.checkoutbox{
+    margin: auto;
+    margin-top: 50px;
+    width: 350px;
+    height: 200px;
+    background-color: rgba(0,0,0, 0.8);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    box-decoration-break: slice;
+    box-sizing: border-box;
+    border-color: black;
+    font-weight: 700;
+    padding: 30px 30px;
+}
+.linklist {
+    background-color: #fb2525;
+    color: white;
+    padding: 14px 25px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block; 
+    margin-left: 550px;
+  }
+  .linklist a:hover
+{
+    color: #ffc107;
+}
+.guestlist
+{
+    background-color: #fb2525;
+    color: white;
+    padding: 14px 25px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block; 
+
+}
+  .checkoutbox a:hover
+  {
+    color: #ffc107;
+  }
+  .list
+  {
+    background-color: #fb2525;
+    color: white;
+    padding: 14px 25px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block; 
+    margin-top: 230px;
+  }
+  .list1
+  {
+    background-color: #fb2525;
+    color: white;
+    padding: 14px 25px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block; 
+    margin:auto;
+  }
+
+.info
+{
+    margin-left: 500px;
+    margin-top: 50px;
+    width: 320px;
+    height: 480px;
+    background-color: rgba(0,0,0, 0.8);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    box-decoration-break: slice;
+    box-sizing: border-box;
+    border-color: black;
+    font-weight: 700;
+    padding: 30px 30px;
+}
+.info input[type="submit"]
+{
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 50px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.info input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.info a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.info a:hover
+{
+    color: #ffc107;
+}
+.last{
+    margin-left: 400px;
+    margin-top: 100px;
+    width: 520px;
+    height: 180px;
+    background-color: rgba(0,0,0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    box-decoration-break: slice;
+    box-sizing: border-box;
+    border-color: black;
+    font-weight: 700;
+    padding: 10px 30px;
+    text-align: center;
+}

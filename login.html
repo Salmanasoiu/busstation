@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    <link rel="stylesheet" href="login.css">
+    <body>
+       
+      <center> <h1> Bus Station </h1></center> 
+    
+
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li style="float:right"> <a class="active" href="signup.html">Sign Up</a></li>
+         </ul>
+    </nav>
+
+
+        <div class="loginbox">
+        <form name="myform">
+            <h3> LOGIN  </h3>
+            <label for="name">Enter Username</label>
+            <input type="text" name="id" required><br><br>
+            <label for="password" >Password</label>
+            <input type="password" name="pass" required><br><br>
+            <input type="submit" name"" value="Login" onclick="myFun()" ><br>
+             
+           <center> <a href="signup.html">Create a New Account </a> </center>        
+            
+            
+        </form>
+        <script>
+            function myFun() {
+                var name=document.myform.id.value;
+                var pass=document.myform.pass.value;
+
+                if (name=="navdeep@gmail.com" && pass=="123") {
+                    window.alert("Login Successfull");
+                    getSelection(index.html)
+                } else {
+                    window.alert("Wrong Credential");
+                }
+            }
+        </script>
+    </div>
+    </body>
+</html>

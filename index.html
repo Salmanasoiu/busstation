@@ -1,0 +1,89 @@
+<html>
+
+<head>
+  <title>Online Bus Reservation System</title>
+</head>
+<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="main.css">
+
+<body>
+
+  <center>
+    <h1> Bus Station</h1>
+  </center>
+
+  <nav>
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+      <li style="float:right"> <a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <div class="bus">
+
+    <form action="list.html" name="book">
+      <h4>Choose Your Destination</h4><br>
+
+      <table>
+        <tr>
+          <td> <label for="from">From</label></td>
+          <td> <input list="browsers" name="from" id="from" placeholder="Select" required><br>
+            <datalist id="browsers">
+              <option value="Baku"></option>
+              <option value="Lankaran"></option>
+              <option value="Lerik"></option>
+              <option value="Qabala"></option>
+              <option value="Qazakh"></option>
+              <option value="Khizi"></option>
+              <option value="Qusar"></option>
+              <option value="Quba"></option>
+              <option value="Aghdam"></option>
+              <option value="Shusha"></option>
+              <option value="Siyazan"></option>
+              <option value="Khacmaz"></option>
+              <option value="Ganja"></option>
+              <option value="Qubadli"></option>
+              <option value="Mingachevir"></option>
+
+            </datalist>
+          </td>
+        </tr>
+        <tr>
+          <td> <label for="To">To</label></td>
+          <td> <input list="browsers" name="to" id="to" placeholder="Select" required>
+            <datalist id="browsers">
+              <option value="Baku"></option>
+              <option value="Lankaran"></option>
+              <option value="Lerik"></option>
+              <option value="Qabala"></option>
+              <option value="Qazakh"></option>
+              <option value="Khizi"></option>
+              <option value="Qusar"></option>
+              <option value="Quba"></option>
+              <option value="Aghdam"></option>
+              <option value="Shusha"></option>
+              <option value="Siyazan"></option>
+              <option value="Khacmaz"></option>
+              <option value="Ganja"></option>
+              <option value="Qubadli"></option>
+              <option value="Mingachevir"></option>
+
+            </datalist>
+          </td>
+        </tr>
+        <tr>
+          <td> <label for="date">Date</label></td>
+          <td> <input type="date" name="" placeholder="dd-mm-yyyy" value="" min="2023-05-15"></td>
+        </tr>
+      </table><br>
+      <input type="submit" name="" value="Book Ticket">
+    </form>
+
+  </div>
+
+</body>
+<script src="data.js"></script>
+
+</html>
